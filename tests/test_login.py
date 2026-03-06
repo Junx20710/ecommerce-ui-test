@@ -24,7 +24,7 @@ def test_standard_user_login_success(page):
     
     # 断言二：页面左上角是否出现了 "Products" 这个标题文字
     # .title 是那个文字的 CSS class 属性
-    expect(page.locator(".title")).to_have_text("Super Products")
+    expect(page.locator(".title")).to_have_text("Products")
 
 
 # ================= 新增：使用 DDT 数据驱动测试异常登录 =================
