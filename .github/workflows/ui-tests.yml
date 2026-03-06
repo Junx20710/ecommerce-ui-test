@@ -3,7 +3,7 @@ name: E2E UI Tests CI
 # 触发器：当有人往 main 分支推代码，或者提 PR 时，立刻触发流水线
 on:
   push:
-    branches:[ "main" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
